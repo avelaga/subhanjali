@@ -5,4 +5,5 @@
 - create a new github repo
 - connect new repo with `git remote add origin <repo-link>`
 - push and finished setup to new repo with `git push -u origin master`
+
 now you're good to go and use it as a new project
