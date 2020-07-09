@@ -6,4 +6,6 @@
 - connect new repo with `git remote add origin <repo-link>`
 - push and finished setup to new repo with `git push -u origin master`
 
+use `npm run dev` to start dev server and `npm run build` to build the production files and save them in /dist
+
 now you're good to go and use it as a new project
