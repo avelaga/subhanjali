@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import './pages.module.scss';
 
 export class Home extends Component {
   render() {
     return (
       <div>
-        <h1>This will be my amazing home page</h1>
+        <div className="title">This will be my amazing home page</div>
       </div>
     )
   }

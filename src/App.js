@@ -4,7 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Home from './Home.js';
+import Home from './pages/Home.js';
 import './App.css';
 
 const ErrorPage = () => {
