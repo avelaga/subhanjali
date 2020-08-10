@@ -31,9 +31,9 @@ export class Home extends Component {
   render() {
     return (
       <div className="page">
-        <div className="title">Subhanjali Velaga</div>
-        <div className="description">This is information about me and what I do</div>
-        <div className="email">subhanjali@gmail.com</div>
+        <div className="title">Subhanjali</div>
+        <div className="description">Artist in oil and acrylic mediums</div>
+        <div className="email">subha.velaga@gmail.com</div>
         <MediaQuery minDeviceWidth={500}>{this.mapImages(3)}</MediaQuery>
         <MediaQuery maxDeviceWidth={500}>{this.mapImages(1)}</MediaQuery>
       </div>
