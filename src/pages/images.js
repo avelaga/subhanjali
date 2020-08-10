@@ -3,6 +3,7 @@ import img2 from "../../dist/images/2.jpg";
 import img3 from "../../dist/images/3.jpg";
 import img4 from "../../dist/images/4.jpg";
 import img5 from "../../dist/images/5.jpg";
+import img6 from "../../dist/images/Dolly.jpg";
 
 export const images = [
   {
@@ -34,5 +35,11 @@ export const images = [
     title: "this is the title",
     description: "this is the description",
     medium: "this is the medium"
+  },
+  {
+    src: img6,
+    title: "Dolly",
+    description: "this is the description",
+    medium: "oil on canvas 16X16"
   },
 ];
