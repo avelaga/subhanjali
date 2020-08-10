@@ -1,0 +1,12 @@
+to pull latest changes from the remote version:
+git pull
+
+git save and push new changes to remote:
+git add .
+git commit -m “this is the commit message”
+git push
+
+to run the site locally:
+npm run dev
+
+if you get errors with nom run dev, try 'npm install' to make sure you have all the packages
