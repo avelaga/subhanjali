@@ -1,9 +1,29 @@
+$link-color: rgb(180, 180, 180);
+
 @keyframes appear {
   from {
-    opacity: 0
+    opacity: 0;
   }
   to {
-    opacity: 1
+    opacity: 1;
+  }
+}
+
+@keyframes overLink {
+  from {
+    color: $link-color;
+  }
+  to {
+    color: black;
+  }
+}
+
+@keyframes offLink {
+  from {
+    color: black;
+  }
+  to {
+    color: $link-color;
   }
 }
 
@@ -67,13 +87,32 @@
   margin-bottom: 30px;
 }
 
-.email{
+.links {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
   z-index: 1;
   font-family: 'Avenir-Book';
-  color: grey;
+  color: $link-color;
+  animation-name: offLink;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+.links:hover{
+  animation-name: overLink;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+.email {
+  @extend .links;
+  bottom: 40px;
+  right: 20px;
+}
+
+.credit {
+  @extend .links;
+  bottom: 20px;
+  right: 20px;
 }
 
 @media (max-width: 500px) {

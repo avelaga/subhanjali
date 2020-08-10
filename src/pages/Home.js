@@ -36,7 +36,8 @@ export class Home extends Component {
       <div className="page">
         <div className="title">Subhanjali</div>
         <div className="description">Artist in oil and acrylic mediums</div>
-        <div className="email">subha.velaga@gmail.com</div>
+        <a href="mailto:subha.velaga@gmail.com"><div className="email">subha.velaga@gmail.com</div></a>
+        <a href="https://abhi.work" target="_blank"><div className="credit">Developed by Abhi Velaga</div></a>
         <MediaQuery minDeviceWidth={500}>{this.mapImages(3)}</MediaQuery>
         <MediaQuery maxDeviceWidth={500}>{this.mapImages(1)}</MediaQuery>
 
