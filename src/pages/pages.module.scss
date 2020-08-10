@@ -15,12 +15,14 @@
 
 .title {
   text-align: center;
-  font-size: 50px;
-  margin-top: 30px;
+  font-size: 60px;
+  margin-top: 40px;
   font-family: 'Avenir-Black';
 }
 
 .description{
+  margin-top: 30px;
+  font-size: 20px;
   font-family: 'Avenir-Book';
   text-align: center;
 }
@@ -29,13 +31,43 @@
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
-  margin-bottom: 30px;
 }
 
 .gallery{
+  margin-top: 40px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+}
+
+.img-info{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Avenir-Book';
+  line-height: 15px;
+  font-size: 12px;
+}
+
+.img-title{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Avenir-Black';
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.img-div{
+  margin-bottom: 30px;
+}
+
+.email{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+  font-family: 'Avenir-Book';
+  color: grey;
 }
