@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Columned from "react-columned";
-import { images } from "./images.js";
+import { images, getHeight, getWidth } from "./images.js";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css';
 import MediaQuery from 'react-responsive'
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 import './pages.module.scss';
@@ -18,8 +20,8 @@ export class Home extends Component {
   mapImages(cols) {
     return <Columned columns={cols} className="gallery">
       {images.map((value, index) => {
-        return <div className="img-div">
-          <LazyLoadImage key={index} className="img" src={value.src} onClick={() => this.setState({ isOpen: true, photoIndex: index })} effect="opacity" />
+        return <div className="img-div" key={index}>
+          <LazyLoadImage className="img" src={value.src} onClick={() => this.setState({ isOpen: true, photoIndex: index })} effect="opacity" height={getHeight(value)} width={getWidth(value)} />
           <div className="img-title">{value.title}</div>
           <div className="img-info">{value.description}</div>
           <div className="img-info">{value.medium}</div>
@@ -29,6 +31,7 @@ export class Home extends Component {
   }
 
   render() {
+    const { photoIndex, isOpen } = this.state;
     return (
       <div className="page">
         <div className="title">Subhanjali Velaga</div>
@@ -36,6 +39,25 @@ export class Home extends Component {
         <div className="email">subhanjali@gmail.com</div>
         <MediaQuery minDeviceWidth={500}>{this.mapImages(3)}</MediaQuery>
         <MediaQuery maxDeviceWidth={500}>{this.mapImages(1)}</MediaQuery>
+
+        {isOpen && (
+          <Lightbox
+            mainSrc={images[photoIndex].src}
+            nextSrc={images[(photoIndex + 1) % images.length].src}
+            prevSrc={images[(photoIndex + images.length - 1) % images.length].src}
+            onCloseRequest={() => this.setState({ isOpen: false })}
+            onMovePrevRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + images.length - 1) % images.length,
+              })
+            }
+            onMoveNextRequest={() =>
+              this.setState({
+                photoIndex: (photoIndex + 1) % images.length,
+              })
+            }
+          />
+        )}
       </div>
     )
   }
