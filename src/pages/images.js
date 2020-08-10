@@ -3,7 +3,7 @@ import img2 from "../../dist/images/cyclist.jpg";
 import img3 from "../../dist/images/dancer.jpg";
 import img4 from "../../dist/images/guitarist.jpg";
 import img5 from "../../dist/images/beach.jpg";
-import img6 from "../../dist/images/dolly.jpg";
+// import img6 from "../../dist/images/dolly.jpg";
 
 export const images = [
   {
@@ -36,12 +36,12 @@ export const images = [
     description: "",
     medium: "oil on canvas 18X24"
   },
-  {
-    src: img6,
-    title: "Dolly",
-    description: "",
-    medium: "oil on canvas 16X16"
-  }
+  // {
+  //   src: img6,
+  //   title: "Dolly",
+  //   description: "",
+  //   medium: "oil on canvas 16X16"
+  // }
 ];
 
 export function getWidth(image) {
