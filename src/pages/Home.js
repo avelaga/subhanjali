@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Columned from "react-columned";
-import testImg from "../../dist/images/test.jpg";
+import { images } from "./images.js";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import MediaQuery from 'react-responsive'
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 import './pages.module.scss';
 
@@ -11,10 +12,20 @@ export class Home extends Component {
     this.state = {
       photoIndex: 0,
       isOpen: false,
-      images: [
-        testImg, testImg, testImg, testImg, testImg, testImg
-      ]
     };
+  }
+
+  mapImages(cols) {
+    return <Columned columns={cols} className="gallery">
+      {images.map((value, index) => {
+        return <div className="img-div">
+          <LazyLoadImage key={index} className="img" src={value.src} onClick={() => this.setState({ isOpen: true, photoIndex: index })} effect="opacity" />
+          <div className="img-title">{value.title}</div>
+          <div className="img-info">{value.description}</div>
+          <div className="img-info">{value.medium}</div>
+        </div>
+      })}
+    </Columned>
   }
 
   render() {
@@ -23,16 +34,8 @@ export class Home extends Component {
         <div className="title">Subhanjali Velaga</div>
         <div className="description">This is information about me and what I do</div>
         <div className="email">subhanjali@gmail.com</div>
-        <Columned columns={3} className="gallery">
-          {this.state.images.map((value, index) => {
-            return <div className="img-div">
-              <LazyLoadImage key={index} className="img" src={value} onClick={() => this.setState({ isOpen: true, photoIndex: index })} effect="opacity" />
-              <div className="img-title">this is the title</div>
-              <div className="img-info">description</div>
-              <div className="img-info">medium</div>
-            </div>
-          })}
-        </Columned>
+        <MediaQuery minDeviceWidth={500}>{this.mapImages(3)}</MediaQuery>
+        <MediaQuery maxDeviceWidth={500}>{this.mapImages(1)}</MediaQuery>
       </div>
     )
   }
