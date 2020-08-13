@@ -1,6 +1,6 @@
 $link-color: rgb(180, 180, 180);
 $nav-color: rgb(228, 110, 0);
-$darker-nav-link: rgb(255, 60, 0);
+$darker-nav-link: rgb(255, 17, 0);
 
 @keyframes appear {
   from {
@@ -63,7 +63,7 @@ $darker-nav-link: rgb(255, 60, 0);
 
 @keyframes overNavLink {
   from {
-    color: $link-color;
+    color: $nav-color;
   }
   to {
     color: $darker-nav-link;
@@ -75,7 +75,7 @@ $darker-nav-link: rgb(255, 60, 0);
     color: $darker-nav-link;
   }
   to {
-    color: $link-color;
+    color: $nav-color;
   }
 }
 
