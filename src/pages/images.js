@@ -4,6 +4,18 @@ import img3 from "../../dist/images/dancer.jpg";
 import img4 from "../../dist/images/guitarist.jpg";
 import img5 from "../../dist/images/beach.jpg";
 import img6 from "../../dist/images/dolly.jpg";
+import img6 from "../../dist/images/log-cabin.jpg";
+import img7 from "../../dist/images/lord-krishna.jpg";
+import img8 from "../../dist/images/marigold-field.jpg";
+import img9 from "../../dist/images/green-lake.jpg";
+import img10 from "../../dist/images/big-brother.jpg";
+import img11 from "../../dist/images/chess.jpg";
+import img12 from "../../dist/images/dusk.jpg";
+import img13 from "../../dist/images/girls-in-the-park.jpg";
+import img14 from "../../dist/images/indian-bride&groom.jpg";
+import img15 from "../../dist/images/portrait-blue.jpg";
+import img16 from "../../dist/images/water-lily.jpg";
+import img17 from "../../dist/images/yosemite.jpg";
 
 export const images = [
   {
@@ -41,5 +53,71 @@ export const images = [
     title: "Dolly",
     description: "",
     medium: "oil on canvas 16X16"
+  },
+  {
+    src: img7,
+    title: "Lord Krishna",
+    description: "",
+    medium: "Acrylic on canvas 24X30"
+  },
+  {
+    src: img8,
+    title: "Marigold Field",
+    description: "",
+    medium: "Acrylic on canvas 16X20"
+  },
+  {
+    src: img9,
+    title: "Green Lake",
+    description: "",
+    medium: "Acrylic on canvas 16X20"
+  },
+  {
+    src: img10,
+    title: "Big Brother",
+    description: "",
+    medium: "oil on canvas 24X30"
+  },
+  {
+    src: img11,
+    title: "Chess",
+    description: "",
+    medium: "oil on canvas 16X20"
+  },
+  {
+    src: img12,
+    title: "Dusk",
+    description: "",
+    medium: "oil on canvas 24X30"
+  },
+  {
+    src: img13,
+    title: "Girls in the park",
+    description: "",
+    medium: "oil on canvas 16X16"
+  },
+  {
+    src: img14,
+    title: "Indian Bride & Groom",
+    description: "",
+    medium: "oil on canvas 24X30"
+  },
+  {
+    src: img15,
+    title: "Portrait couple",
+    description: "",
+    medium: "oil on canvas 16X16"
+  },
+  {
+    src: img16,
+    title: "Lotus",
+    description: "",
+    medium: "Acrylic on canvas 16X20"
+  },
+  {
+    src: img17,
+    title: "Kids at Yosemite",
+    description: "",
+    medium: "oil on canvas 16X20"
   },
 ];
