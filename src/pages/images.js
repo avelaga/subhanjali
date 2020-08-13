@@ -121,3 +121,21 @@ export const images = [
     medium: "oil on canvas 16X20"
   },
 ];
+  }
+];
+
+export function getWidth(image) {
+  var img = new Image();
+  img.onload = function () {
+    return this.width;
+  }
+  img.src = image;
+}
+
+export function getHeight(image) {
+  var img = new Image();
+  img.onload = function () {
+    return this.height;
+  }
+  img.src = image;
+}
