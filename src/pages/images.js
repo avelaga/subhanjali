@@ -102,12 +102,12 @@ export const images = [
     description: "",
     medium: "oil on canvas 24X30"
   },
-  {
-    src: img15,
-    title: "Portrait couple",
-    description: "",
-    medium: "oil on canvas 16X16"
-  },
+  // {
+  //   src: img15,
+  //   title: "Portrait couple",
+  //   description: "",
+  //   medium: "oil on canvas 16X16"
+  // },
   {
     src: img16,
     title: "Lotus",
