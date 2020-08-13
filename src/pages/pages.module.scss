@@ -1,4 +1,6 @@
 $link-color: rgb(180, 180, 180);
+$nav-color: rgb(228, 110, 0);
+$darker-nav-link: rgb(255, 60, 0);
 
 @keyframes appear {
   from {
@@ -35,24 +37,77 @@ $link-color: rgb(180, 180, 180);
   padding-left: 15%;
 }
 
-.title {
-  text-align: center;
-  font-size: 60px;
+.header {
   margin-top: 40px;
-  font-family: 'Avenir-Black';
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.title-div {
+  text-align: left;
+  margin-left: 3%;
+}
+
+.title {
+  font-size: 40px;
+  width: 300px;
+  font-family: cursive;
 }
 
 .description{
-  margin-top: 20px;
   font-size: 20px;
   font-family: 'Avenir-Roman';
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+}
+
+@keyframes overNavLink {
+  from {
+    color: $link-color;
+  }
+  to {
+    color: $darker-nav-link;
+  }
+}
+
+@keyframes offNavLink {
+  from {
+    color: $darker-nav-link;
+  }
+  to {
+    color: $link-color;
+  }
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Avenir-Roman';
+  a {
+    color: $nav-color;
+  }
+}
+
+.link {
+  margin: 5px;
+  margin-bottom: 0px;
+  color: $nav-color;
+
+  animation-name: offNavLink;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+.link:hover{
+  animation-name: overNavLink;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
 }
 
 .img{
-  width: 80%;
+  width: 100%;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -92,8 +147,8 @@ $link-color: rgb(180, 180, 180);
 }
 
 .links {
-  position: fixed;
-  z-index: 1;
+  // position: fixed;
+  // z-index: 1;
   font-family: 'Avenir-Book';
   color: $link-color;
   animation-name: offLink;
@@ -108,15 +163,21 @@ $link-color: rgb(180, 180, 180);
 }
 
 .email {
-  @extend .links;
-  bottom: 40px;
-  right: 20px;
+  // color:  yellow;
+  // @extend .links;
+  // bottom: 40px;
+  // right: 20px;
 }
 
 .credit {
   @extend .links;
-  bottom: 20px;
-  right: 20px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 500px) {
@@ -132,6 +193,8 @@ $link-color: rgb(180, 180, 180);
   .description{
     margin-top: 30px;
     font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 
@@ -148,3 +211,4 @@ $link-color: rgb(180, 180, 180);
 .ril__zoomOutButton {
   background: none !important;
 }
+
