@@ -5,6 +5,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import MediaQuery from 'react-responsive'
+import Header from "../navigation/Header.js";
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 import './pages.module.scss';
 
@@ -36,19 +37,7 @@ export class Home extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div className="page">
-        <div className="header">
-          <div className="title-div">
-            <div className="title">Subhanjali</div>
-            <div className="description">My Art</div>
-          </div>
-          <div className="nav">
-          <a href="https://medium.com/@subhanjali" ><div className="link">Blog</div></a>
-            <a href="mailto:subha.velaga@gmail.com"><div className="link">Contact</div></a>
-            <a href="https://facebook.com" ><div className="link">Facebook</div></a>
-          </div>
-        </div>
-
-
+        <Header />
         <MediaQuery minDeviceWidth={500}>{this.mapImages(3)}</MediaQuery>
         <MediaQuery maxDeviceWidth={500}>{this.mapImages(1)}</MediaQuery>
         <a href="https://abhi.work" target="_blank"><div className="credit">Developed by Abhi Velaga</div></a>
