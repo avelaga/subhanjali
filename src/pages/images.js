@@ -5,14 +5,14 @@ import img4 from "../../dist/images/guitarist.jpg";
 import img5 from "../../dist/images/beach.jpg";
 import img6 from "../../dist/images/log-cabin.jpg";
 import img7 from "../../dist/images/lord-krishna.jpg";
-import img8 from "../../dist/images/marigold-field.JPG";
+// import img8 from "../../dist/images/marigold-field.JPG";
 import img9 from "../../dist/images/green-lake.jpg";
 import img10 from "../../dist/images/big-brother.jpg";
 import img11 from "../../dist/images/chess.jpg";
 import img12 from "../../dist/images/dusk.jpg";
 import img13 from "../../dist/images/park.jpg";
 import img14 from "../../dist/images/indian-bride&groom.jpg";
-import img15 from "../../dist/images/portrait-blue.JPG";
+// import img15 from "../../dist/images/portrait-blue.JPG";
 import img16 from "../../dist/images/water-lily.jpg";
 import img17 from "../../dist/images/yosemite.jpg";
 import img18 from "../../dist/images/dolly.jpg";
@@ -60,12 +60,12 @@ export const images = [
     description: "",
     medium: "Acrylic on canvas 24X30"
   },
-  {
-    src: img8,
-    title: "Marigold Field",
-    description: "",
-    medium: "Acrylic on canvas 16X20"
-  },
+  // {
+  //   src: img8,
+  //   title: "Marigold Field",
+  //   description: "",
+  //   medium: "Acrylic on canvas 16X20"
+  // },
   {
     src: img9,
     title: "Green Lake",
@@ -102,12 +102,12 @@ export const images = [
     description: "",
     medium: "oil on canvas 24X30"
   },
-  {
-    src: img15,
-    title: "Portrait couple",
-    description: "",
-    medium: "oil on canvas 16X16"
-  },
+  // {
+  //   src: img15,
+  //   title: "Portrait couple",
+  //   description: "",
+  //   medium: "oil on canvas 16X16"
+  // },
   {
     src: img16,
     title: "Lotus",
