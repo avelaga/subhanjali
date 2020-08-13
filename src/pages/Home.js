@@ -21,7 +21,9 @@ export class Home extends Component {
     return <Columned columns={cols} className="gallery">
       {images.map((value, index) => {
         return <div className="img-div" key={index}>
-          <LazyLoadImage className="img" src={value.src} onClick={() => this.setState({ isOpen: true, photoIndex: index })} effect="opacity" height={getHeight(value)} width={getWidth(value)} />
+          <LazyLoadImage className="img" src={value.src} onClick={() => this.setState({ isOpen: true, photoIndex: index })} effect="opacity"
+           height={getHeight(value.src)} width={getWidth(value.src)} 
+          />
           <div className="img-title">{value.title}</div>
           <div className="img-info">{value.description}</div>
           <div className="img-info">{value.medium}</div>
@@ -41,6 +43,7 @@ export class Home extends Component {
         <MediaQuery minDeviceWidth={500}>{this.mapImages(3)}</MediaQuery>
         <MediaQuery maxDeviceWidth={500}>{this.mapImages(1)}</MediaQuery>
 
+        {/* lightbox that conditionally appears when the variable, isOpen, is true */}
         {isOpen && (
           <Lightbox
             mainSrc={images[photoIndex].src}
