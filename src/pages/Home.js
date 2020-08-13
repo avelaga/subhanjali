@@ -36,19 +36,11 @@ export class Home extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div className="page">
-<<<<<<< HEAD
-        <div className="title">Subhanjali</div>
-        <div className="description">My Art</div>
-        <a href="mailto:subha.velaga@gmail.com"><div className="email">subha.velaga@gmail.com</div></a>
-        <a href="https://abhi.work" target="_blank"><div className="credit">Developed by Abhi Velaga</div></a>
-=======
-
         <div className="header">
           <div className="title-div">
             <div className="title">Subhanjali</div>
-            <div className="description">Artist in oil and acrylic mediums</div>
+            <div className="description">My Art</div>
           </div>
-
           <div className="nav">
           <a href="https://medium.com/@subhanjali" ><div className="link">Blog</div></a>
             <a href="mailto:subha.velaga@gmail.com"><div className="link">Contact</div></a>
@@ -57,7 +49,6 @@ export class Home extends Component {
         </div>
 
 
->>>>>>> ad77f0625702a9b384674ebc70c0cd9f72a03e74
         <MediaQuery minDeviceWidth={500}>{this.mapImages(3)}</MediaQuery>
         <MediaQuery maxDeviceWidth={500}>{this.mapImages(1)}</MediaQuery>
         <a href="https://abhi.work" target="_blank"><div className="credit">Developed by Abhi Velaga</div></a>
