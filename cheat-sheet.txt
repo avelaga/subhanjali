@@ -9,4 +9,4 @@ git push
 to run the site locally:
 npm run dev
 
-if you get errors with nom run dev, try 'npm install' to make sure you have all the packages
+if you get errors with npm run dev, try 'npm install' to make sure you have all the packages

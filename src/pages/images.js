@@ -3,7 +3,6 @@ import img2 from "../../dist/images/cyclist.jpg";
 import img3 from "../../dist/images/dancer.jpg";
 import img4 from "../../dist/images/guitarist.jpg";
 import img5 from "../../dist/images/beach.jpg";
-import img6 from "../../dist/images/dolly.jpg";
 import img6 from "../../dist/images/log-cabin.jpg";
 import img7 from "../../dist/images/lord-krishna.jpg";
 import img8 from "../../dist/images/marigold-field.jpg";
@@ -11,11 +10,12 @@ import img9 from "../../dist/images/green-lake.jpg";
 import img10 from "../../dist/images/big-brother.jpg";
 import img11 from "../../dist/images/chess.jpg";
 import img12 from "../../dist/images/dusk.jpg";
-import img13 from "../../dist/images/girls-in-the-park.jpg";
+import img13 from "../../dist/images/park.jpg";
 import img14 from "../../dist/images/indian-bride&groom.jpg";
 import img15 from "../../dist/images/portrait-blue.jpg";
 import img16 from "../../dist/images/water-lily.jpg";
 import img17 from "../../dist/images/yosemite.jpg";
+import img18 from "../../dist/images/dolly.jpg";
 
 export const images = [
   {
@@ -50,9 +50,9 @@ export const images = [
   },
   {
     src: img6,
-    title: "Dolly",
+    title: "Log Cabin",
     description: "",
-    medium: "oil on canvas 16X16"
+    medium: "oil on canvas 16X20"
   },
   {
     src: img7,
@@ -120,8 +120,12 @@ export const images = [
     description: "",
     medium: "oil on canvas 16X20"
   },
-];
-  }
+  {
+    src: img18,
+    title: "Dolly",
+    description: "",
+    medium: "oil on canvas 16X16"
+  },
 ];
 
 export function getWidth(image) {
