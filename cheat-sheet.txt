@@ -4,9 +4,13 @@ git pull
 git save and push new changes to remote:
 git add .
 git commit -m “this is the commit message”
-git push
 
 to run the site locally:
 npm run dev
-
 if you get errors with npm run dev, try 'npm install' to make sure you have all the packages
+
+git push
+
+to get back to command line after any error or other messages - 
+
+

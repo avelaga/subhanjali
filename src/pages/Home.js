@@ -36,13 +36,11 @@ export class Home extends Component {
     const { photoIndex, isOpen } = this.state;
     return (
       <div className="page">
-
         <div className="header">
           <div className="title-div">
             <div className="title">Subhanjali</div>
-            <div className="description">Artist in oil and acrylic mediums</div>
+            <div className="description">My Art</div>
           </div>
-
           <div className="nav">
           <a href="https://medium.com/@subhanjali" ><div className="link">Blog</div></a>
             <a href="mailto:subha.velaga@gmail.com"><div className="link">Contact</div></a>
