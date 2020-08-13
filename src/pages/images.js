@@ -15,7 +15,7 @@ import img14 from "../../dist/images/indian-bride&groom.jpg";
 import img15 from "../../dist/images/portrait-blue.jpg";
 import img16 from "../../dist/images/water-lily.jpg";
 import img17 from "../../dist/images/yosemite.jpg";
-import img18 from "../../dist/images/dolly.jpg";
+import img18 from "../../dist/images/dolly.JPG";
 
 export const images = [
   {
