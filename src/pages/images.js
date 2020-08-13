@@ -20,31 +20,31 @@ import img18 from "../../dist/images/dolly.jpg";
 export const images = [
   {
     src: img1,
-    title: "Dreamy doggo",
+    title: "Dreamy Doggo",
     description: "Sam the doggo dreaming away",
     medium: "oil on canvas 18X24"
   },
   {
     src: img2,
-    title: "The morning cyclist",
+    title: "The Morning Cyclist",
     description: "",
     medium: "oil on canvas 18X24"
   },
   {
     src: img3,
-    title: "Kuchipudi dancer",
+    title: "Kuchipudi Dancer",
     description: "",
     medium: "oil on canvas 24X30"
   },
   {
     src: img4,
-    title: "The guitarist",
+    title: "The Guitarist",
     description: "",
     medium: "oil on canvas 18X24"
   },
   {
     src: img5,
-    title: "Cousins at the beach",
+    title: "Cousins At The Beach",
     description: "",
     medium: "oil on canvas 18X24"
   },
@@ -92,7 +92,7 @@ export const images = [
   },
   {
     src: img13,
-    title: "Girls in the park",
+    title: "Girls In The Park",
     description: "",
     medium: "oil on canvas 16X16"
   },
@@ -116,7 +116,7 @@ export const images = [
   },
   {
     src: img17,
-    title: "Kids at Yosemite",
+    title: "Kids At Yosemite",
     description: "",
     medium: "oil on canvas 16X20"
   },
