@@ -10,13 +10,13 @@ import img9 from "../../dist/images/mil.jpg";
 import img10 from "../../dist/images/big-brother.jpg";
 import img11 from "../../dist/images/chess.jpg";
 import img12 from "../../dist/images/dusk.jpg";
-import img13 from "../../dist/images/park.jpg";
+import img13 from "../../dist/images/lord-krishna.jpg";
 import img14 from "../../dist/images/indian-bride&groom.jpg";
 import img15 from "../../dist/images/portrait-blue.jpg";
 import img16 from "../../dist/images/water-lily.jpg";
 import img17 from "../../dist/images/yosemite.jpg";
-import img18 from "../../dist/images/dolly.jpg";
-import img19 from "../../dist/images/lord-krishna.jpg";
+import img18 from "../../dist/images/park.jpg";
+import img19 from "../../dist/images/dolly.jpg";
 import img20 from "../../dist/images/green-lake.jpg";
 
 
@@ -95,9 +95,9 @@ export const images = [
   },
   {
     src: img13,
-    title: "Girls In The Park",
+    title: "Lord Krishna",
     description: "",
-    medium: "oil on canvas 16X16"
+    medium: "acrylic on canvas 24X30"
   },
   {
     src: img14,
@@ -113,7 +113,7 @@ export const images = [
   // },
   {
     src: img16,
-    title: "Lotus",
+    title: "Lotus Bloom",
     description: "",
     medium: "acrylic on canvas 16X20"
   },
@@ -125,15 +125,15 @@ export const images = [
   },
   {
     src: img18,
-    title: "Dolly",
-    description: "",
+    title: "Girls In The Park",
+    description: "done in shades of blue, green, brown and white",
     medium: "oil on canvas 16X16"
   },
   {
     src: img19,
-    title: "Lord Krishna",
+    title: "Dolly",
     description: "",
-    medium: "acrylic on canvas 24X30"
+    medium: "oil on canvas 16X16"
   },
   {
     src: img20,

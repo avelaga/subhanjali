@@ -11,6 +11,6 @@ if you get errors with npm run dev, try 'npm install' to make sure you have all 
 
 git push
 
-to get back to command line after any error or other messages - 
+to get back to command line after any error or other messages - :qa 
 
 
