@@ -33,8 +33,7 @@ export class Header extends Component {
           }
 
           <div 
-          className={this.state.collapsed ? "nav" : "show"} 
-          id="nav">
+          className={this.state.collapsed ? "nav" : "show"} >
             <a href="https://medium.com/@subhanjali" target="_blank"><div className="link">Blog</div></a>
             <a href="mailto:subha.velaga@gmail.com"><div className="link">Contact</div></a>
             <a href="https://www.facebook.com/subhanjali" target="_blank"><div className="link">Facebook</div></a>
