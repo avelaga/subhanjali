@@ -1,16 +1,14 @@
 to pull latest changes from the remote version:
 git pull
+to exit the text editor if it asks you to edit something after git pull: :qa 
 
 git save and push new changes to remote:
 git add .
 git commit -m “this is the commit message”
+git push
 
 to run the site locally:
 npm run dev
 if you get errors with npm run dev, try 'npm install' to make sure you have all the packages
 
-git push
-
-to get back to command line after any error or other messages - :qa 
-
-
+to quit dev server: ctrl + C
