@@ -96,12 +96,11 @@ $darker-nav-link: rgb(0, 0, 0);
 
   .nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     font-weight: bold;
     width: 100%;
     padding: 0px;
-    margin-bottom: 20px;
     height: 0;
     overflow-y: hidden;
     transition: height .3s ease-in-out;
