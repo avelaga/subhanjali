@@ -76,8 +76,8 @@ export const images = [
     medium: "oil on canvas 18X24"
   },
   {
-    src: bigBrother,
-    title: "Big Brother",
+    src: indianBridgeGroom,
+    title: "60's Indian Bride & Groom",
     description: "",
     medium: "oil on canvas 24X30"
   },
@@ -100,8 +100,8 @@ export const images = [
     medium: "acrylic on canvas 24X30"
   },
   {
-    src: indianBridgeGroom,
-    title: "60's Indian Bride & Groom",
+    src: bigBrother,
+    title: "Big Brother",
     description: "",
     medium: "oil on canvas 24X30"
   },
