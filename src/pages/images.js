@@ -71,7 +71,7 @@ export const images = [
   },
   {
     src: img9,
-    title: "Mother In Law",
+    title: "Portrait Of A Mother",
     description: "",
     medium: "oil on canvas 18X24"
   },
