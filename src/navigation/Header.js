@@ -10,9 +10,9 @@ export class Header extends Component {
         <div className="description">My Art</div>
       </div>
       <div className="nav">
-      <a href="https://medium.com/@subhanjali" ><div className="link">Blog</div></a>
+      <a href="https://medium.com/@subhanjali" target="_blank"><div className="link">Blog</div></a>
         <a href="mailto:subha.velaga@gmail.com"><div className="link">Contact</div></a>
-        <a href="https://facebook.com" ><div className="link">Facebook</div></a>
+        <a href="https://www.facebook.com/subhanjali" target="_blank"><div className="link">Facebook</div></a>
       </div>
     </div>
     )
