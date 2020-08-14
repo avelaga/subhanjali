@@ -1,142 +1,142 @@
-import img1 from "../../dist/images/doggo.jpg";
-import img2 from "../../dist/images/cyclist.jpg";
-import img3 from "../../dist/images/dancer.jpg";
-import img4 from "../../dist/images/guitarist.jpg";
-import img5 from "../../dist/images/beach.jpg";
-import img6 from "../../dist/images/log-cabin.jpg";
-import img7 from "../../dist/images/young-man.jpg";
-import img8 from "../../dist/images/marigold-field.jpg";
-import img9 from "../../dist/images/mil.jpg";
-import img10 from "../../dist/images/big-brother.jpg";
-import img11 from "../../dist/images/chess.jpg";
-import img12 from "../../dist/images/dusk.jpg";
-import img13 from "../../dist/images/lord-krishna.jpg";
-import img14 from "../../dist/images/indian-bride&groom.jpg";
-import img15 from "../../dist/images/portrait-blue.jpg";
-import img16 from "../../dist/images/water-lily.jpg";
-import img17 from "../../dist/images/yosemite.jpg";
-import img18 from "../../dist/images/park.jpg";
-import img19 from "../../dist/images/dolly.jpg";
-import img20 from "../../dist/images/green-lake.jpg";
+import doggo from "../../dist/images/doggo.jpg";
+import cyclist from "../../dist/images/cyclist.jpg";
+import dancer from "../../dist/images/dancer.jpg";
+import guitarist from "../../dist/images/guitarist.jpg";
+import beach from "../../dist/images/beach.jpg";
+import logCabin from "../../dist/images/log-cabin.jpg";
+import youngMAn from "../../dist/images/young-man.jpg";
+import marigoldField from "../../dist/images/marigold-field.jpg";
+import mil from "../../dist/images/mil.jpg";
+import bigBrother from "../../dist/images/big-brother.jpg";
+import chess from "../../dist/images/chess.jpg";
+import dusk from "../../dist/images/dusk.jpg";
+import lordKrishna from "../../dist/images/lord-krishna.jpg";
+import indianBridgeGroom from "../../dist/images/indian-bride&groom.jpg";
+import portraitBlue from "../../dist/images/portrait-blue.jpg";
+import waterLily from "../../dist/images/water-lily.jpg";
+import yosemite from "../../dist/images/yosemite.jpg";
+import park from "../../dist/images/park.jpg";
+import dolly from "../../dist/images/dolly.jpg";
+import greenLake from "../../dist/images/green-lake.jpg";
 
 
 export const images = [
   {
-    src: img1,
+    src: doggo,
     title: "Dreamy Doggo",
     description: "Sam the doggo dreaming away",
     medium: "oil on canvas 18X24"
   },
   {
-    src: img2,
+    src: cyclist,
     title: "The Morning Cyclist",
     description: "",
     medium: "oil on canvas 16X20"
   },
   {
-    src: img3,
+    src: dancer,
     title: "Kuchipudi Dancer",
     description: "",
     medium: "oil on canvas 24X30"
   },
   {
-    src: img4,
+    src: guitarist,
     title: "The Guitarist",
     description: "",
     medium: "oil on canvas 18X24"
   },
   {
-    src: img5,
+    src: beach,
     title: "Cousins At The Beach",
     description: "",
     medium: "oil on canvas 16X20"
   },
   {
-    src: img6,
+    src: logCabin,
     title: "Log Cabin",
     description: "",
     medium: "oil on canvas 16X20"
   },
   {
-    src: img7,
+    src: youngMAn,
     title: "Young Man",
     description: "",
     medium: "oil on canvas 18X24"
   },
   {
-    src: img8,
+    src: marigoldField,
     title: "Marigold Field",
     description: "",
     medium: "acrylic on canvas 16X20"
   },
   {
-    src: img9,
+    src: mil,
     title: "Portrait Of A Mother",
     description: "",
     medium: "oil on canvas 18X24"
   },
   {
-    src: img10,
+    src: bigBrother,
     title: "Big Brother",
     description: "",
     medium: "oil on canvas 24X30"
   },
   {
-    src: img11,
+    src: chess,
     title: "Chess",
     description: "",
     medium: "oil on canvas 16X20"
   },
   {
-    src: img12,
+    src: dusk,
     title: "Dusk",
     description: "",
     medium: "oil on canvas 24X30"
   },
   {
-    src: img13,
+    src: lordKrishna,
     title: "Krishna With Flute",
     description: "",
     medium: "acrylic on canvas 24X30"
   },
   {
-    src: img14,
+    src: indianBridgeGroom,
     title: "60's Indian Bride & Groom",
     description: "",
     medium: "oil on canvas 24X30"
   },
   // {
-  //   src: img15,
+  //   src: portraitBlue,
   //   title: "Portrait couple",
   //   description: "",
   //   medium: "oil on canvas 16X16"
   // },
   {
-    src: img16,
+    src: waterLily,
     title: "Lotus Bloom",
     description: "",
     medium: "acrylic on canvas 16X20"
   },
   {
-    src: img17,
+    src: yosemite,
     title: "Kids At Yosemite",
     description: "",
     medium: "oil on canvas 16X20"
   },
   {
-    src: img18,
+    src: park,
     title: "Girls In The Park",
     description: "done in shades of blue, green, brown and white",
     medium: "oil on canvas 16X16"
   },
   {
-    src: img19,
+    src: dolly,
     title: "Dolly",
     description: "",
     medium: "oil on canvas 16X16"
   },
   {
-    src: img20,
+    src: greenLake,
     title: "Green Lake",
     description: "",
     medium: "acrylic on canvas 16X20"
