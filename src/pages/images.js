@@ -58,19 +58,19 @@ export const images = [
     src: img7,
     title: "Lord Krishna",
     description: "",
-    medium: "Acrylic on canvas 24X30"
+    medium: "acrylic on canvas 24X30"
   },
   {
     src: img8,
     title: "Marigold Field",
     description: "",
-    medium: "Acrylic on canvas 16X20"
+    medium: "acrylic on canvas 16X20"
   },
   {
     src: img9,
     title: "Green Lake",
     description: "",
-    medium: "Acrylic on canvas 16X20"
+    medium: "acrylic on canvas 16X20"
   },
   {
     src: img10,
@@ -112,7 +112,7 @@ export const images = [
     src: img16,
     title: "Lotus",
     description: "",
-    medium: "Acrylic on canvas 16X20"
+    medium: "acrylic on canvas 16X20"
   },
   {
     src: img17,
