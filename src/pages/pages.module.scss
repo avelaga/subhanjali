@@ -88,6 +88,16 @@ $link-color: rgb(180, 180, 180);
     padding-right: 0;
     padding-left: 0;
   }
+  .img{
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .img-title{
+    font-family: 'Avenir-Book';
+  }
 }
 
 /* all of these are in use to modify lightbox library */
