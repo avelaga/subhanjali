@@ -20,25 +20,36 @@ export class Header extends Component {
     return (
       <div className="header">
 
+        {/* mobile  */}
+        < MediaQuery maxDeviceWidth={500} >
+          <div className="menu-button" onClick={this.onClick}>+</div>
+          {!this.state.collapsed &&
+            <div className="nav">
+              <a href="https://medium.com/@subhanjali" target="_blank"><div className="link">Blog</div></a>
+              <a href="mailto:subha.velaga@gmail.com"><div className="link">Contact</div></a>
+              <a href="https://www.facebook.com/subhanjali" target="_blank"><div className="link">Facebook</div></a>
+            </div>
+          }
+        </ MediaQuery>
+
         <div className="title-div">
           <div className="title">Subhanjali</div>
           <div className="description">My Art</div>
         </div>
 
         {/* desktop  */}
-        {!this.state.collapsed &&
+        {/* {!this.state.collapsed && */}
+        < MediaQuery minDeviceWidth={500} >
           <div className="nav">
             <a href="https://medium.com/@subhanjali" target="_blank"><div className="link">Blog</div></a>
             <a href="mailto:subha.velaga@gmail.com"><div className="link">Contact</div></a>
             <a href="https://www.facebook.com/subhanjali" target="_blank"><div className="link">Facebook</div></a>
           </div>
-        }
-
-        {/* mobile  */}
-        < MediaQuery maxDeviceWidth={500} >
-          <div className="menu-button" onClick={this.onClick}>+</div>
         </ MediaQuery>
-        
+        {/* } */}
+
+
+
       </div>
     )
   }
