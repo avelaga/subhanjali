@@ -6,7 +6,7 @@ export class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      collapsed: false
+      collapsed: true
     };
   }
 
@@ -36,7 +36,7 @@ export class Header extends Component {
 
         <div className="title-div">
           <div className="title">Subhanjali</div>
-          <div className="description">My Art</div>
+          <div className="description">artist in oil and acrylic mediums</div>
         </div>
 
         {/* desktop  */}
