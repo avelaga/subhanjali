@@ -99,7 +99,6 @@ $darker-nav-link: rgb(0, 0, 0);
     justify-content: center;
     flex-direction: column;
     font-weight: bold;
-
     width: 100vw;
     height: 100vh;
     padding: 0px;
@@ -108,11 +107,9 @@ $darker-nav-link: rgb(0, 0, 0);
     left: 0;
     z-index: 1;
     display: flex;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    animation-name: hideBack, appear;
-    animation-duration: .3s;
-    animation-fill-mode: forwards;
+    background-color: white;
+    transition: opacity .4s ease;
+    opacity: 1;
   }
 
   .link {
@@ -124,19 +121,7 @@ $darker-nav-link: rgb(0, 0, 0);
   .logo {
     width: 100px !important;
     height: 100px !important;
-  }
-}
-
-@keyframes hideBack {
-  from {
-    background-color: rgba(0, 0, 0, 0);
-    -webkit-backdrop-filter: blur(0);
-    backdrop-filter: blur(0);
-  }
-  to {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
   }
 }
 
@@ -161,5 +146,6 @@ $darker-nav-link: rgb(0, 0, 0);
 }
 
 .none {
-  display: none;
+  @extend .nav;
+  opacity: 0;
 }

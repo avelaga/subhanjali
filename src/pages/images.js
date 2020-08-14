@@ -95,13 +95,13 @@ export const images = [
   },
   {
     src: img13,
-    title: "Lord Krishna",
+    title: "Krishna With Flute",
     description: "",
     medium: "acrylic on canvas 24X30"
   },
   {
     src: img14,
-    title: "Indian Bride & Groom",
+    title: "60's Indian Bride & Groom",
     description: "",
     medium: "oil on canvas 24X30"
   },
