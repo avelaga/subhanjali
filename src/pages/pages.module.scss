@@ -113,3 +113,8 @@ $link-color: rgb(180, 180, 180);
 .ril__zoomOutButton {
   background: none !important;
 }
+
+//  override lazyload animation to be longer
+.lazy-load-image-background.opacity.lazy-load-image-loaded {
+  transition: opacity 1s !important;
+}
