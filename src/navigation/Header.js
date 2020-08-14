@@ -16,11 +16,9 @@ export class Header extends Component {
 
   onClick = (event) => {
     this.setState({
-      collapsed: !this.state.collapsed,
+      collapsed: !this.state.collapsed
     });
   }
-
-
 
   render() {
     return (
@@ -37,7 +35,7 @@ export class Header extends Component {
           }
 
           <div 
-          className={this.state.collapsed ? "nav" : "show"} >
+          className={this.state.collapsed ? "none" : "nav"} >
             <a href="https://medium.com/@subhanjali" target="_blank"><img src={medium} className="link logo" /></a>
             <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
             <a href="mailto:subha.velaga@gmail.com"><img src={gmail} className="link logo" /></a>

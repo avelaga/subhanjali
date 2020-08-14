@@ -96,34 +96,35 @@ $darker-nav-link: rgb(0, 0, 0);
 
   .nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     font-weight: bold;
-    width: 100%;
-    padding: 0px;
-    height: 0;
-    overflow-y: hidden;
-    transition: height .3s ease-in-out;
-  }
 
-  .show {
-    height: 200px;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    animation-name: hideBack, appear;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
   }
 
   .link {
-    font-size: 25px;
+    font-size: 50px;
     margin: 5px;
     color: $nav-color;
-    width: 100%;
   }
 
-  .clicked {
-    color: orange;
+  .logo {
+    width: 100px !important;
+    height: 100px !important;
   }
-}
-
-.show {
-    @extend .nav;
 }
 
 @keyframes hideBack {
@@ -140,7 +141,7 @@ $darker-nav-link: rgb(0, 0, 0);
 }
 
 .menu-button {
-  z-index: 1;
+  z-index: 2;
   border-radius: 100px;
   width: 50px;
   height: 50px;
@@ -148,7 +149,7 @@ $darker-nav-link: rgb(0, 0, 0);
   font-size: 35px;
   background-color: $nav-color;
   color: rgb(255, 255, 255);
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   text-align: center;
@@ -157,4 +158,8 @@ $darker-nav-link: rgb(0, 0, 0);
 .logo {
   width: 30px;
   height: 30px;
+}
+
+.none {
+  display: none;
 }
