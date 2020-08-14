@@ -1,4 +1,4 @@
-$nav-color: rgb(228, 110, 0);
+$nav-color: rgb(255, 153, 57);
 $darker-nav-link: rgb(255, 17, 0);
 
 .header {
@@ -60,13 +60,13 @@ $darker-nav-link: rgb(255, 17, 0);
   margin-bottom: 0px;
   color: $nav-color;
   animation-name: offNavLink;
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
 .link:hover{
   animation-name: overNavLink;
-  animation-duration: 0.7s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
