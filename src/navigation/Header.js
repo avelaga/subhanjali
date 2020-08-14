@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
+import facebook from "../../dist/logos/facebook.png";
+import gmail from "../../dist/logos/gmail.png";
+import linkedin from "../../dist/logos/linkedin.png";
+import medium from "../../dist/logos/medium.png";
 import './navigation.module.scss';
 
 export class Header extends Component {
@@ -34,10 +38,10 @@ export class Header extends Component {
 
           <div 
           className={this.state.collapsed ? "nav" : "show"} >
-            <a href="https://medium.com/@subhanjali" target="_blank"><div className="link">Blog</div></a>
-            <a href="mailto:subha.velaga@gmail.com"><div className="link">Contact</div></a>
-            <a href="https://www.facebook.com/subhanjali" target="_blank"><div className="link">Facebook</div></a>
-            <a href="https://www.linkedin.com/in/subhavelaga/" target="_blank"><div className="link">LinkedIn</div></a>
+            <a href="https://medium.com/@subhanjali" target="_blank"><img src={medium} className="link logo" /></a>
+            <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
+            <a href="mailto:subha.velaga@gmail.com"><img src={gmail} className="link logo" /></a>
+            <a href="https://www.linkedin.com/in/subhavelaga/" target="_blank"><img src={linkedin} className="link logo" /></a>
           </div>
 
         </ MediaQuery>
@@ -50,10 +54,10 @@ export class Header extends Component {
         {/* desktop  */}
         < MediaQuery minDeviceWidth={500} >
           <div className="nav">
-            <a href="https://medium.com/@subhanjali" target="_blank"><div className="link">Blog</div></a>
-            <a href="mailto:subha.velaga@gmail.com"><div className="link">Contact</div></a>
-            <a href="https://www.facebook.com/subhanjali" target="_blank"><div className="link">Facebook</div></a>
-            <a href="https://www.linkedin.com/in/subhavelaga/" target="_blank"><div className="link">LinkedIn</div></a>
+            <a href="https://medium.com/@subhanjali" target="_blank"><img src={medium} className="link logo" /></a>
+            <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
+            <a href="mailto:subha.velaga@gmail.com"><img src={gmail} className="link logo" /></a>
+            <a href="https://www.linkedin.com/in/subhavelaga/" target="_blank"><img src={linkedin} className="link logo" /></a>
           </div>
         </ MediaQuery>
       </div>
