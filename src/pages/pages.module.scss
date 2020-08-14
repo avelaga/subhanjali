@@ -107,11 +107,19 @@ $link-color: rgb(180, 180, 180);
 }
 
 .ril__zoomInButton {
-  background: none !important;
+  display: none;
 }
 
 .ril__zoomOutButton {
-  background: none !important;
+  display: none;
+}
+
+.ril__outer {
+  background-color: white !important;
+}
+
+.ril__closeButton {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 //  override lazyload animation to be longer
