@@ -148,4 +148,5 @@ $darker-nav-link: rgb(0, 0, 0);
 .none {
   @extend .nav;
   opacity: 0;
+  pointer-events: none;
 }
