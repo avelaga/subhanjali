@@ -4,6 +4,7 @@ import facebook from "../../dist/logos/facebook.png";
 import gmail from "../../dist/logos/gmail.png";
 import linkedin from "../../dist/logos/linkedin.png";
 import medium from "../../dist/logos/medium.png";
+import menu from "../../dist/logos/menu.png";
 import './navigation.module.scss';
 
 export class Header extends Component {
@@ -28,10 +29,10 @@ export class Header extends Component {
         < MediaQuery maxDeviceWidth={500} >
 
           {this.state.collapsed &&
-            <div className="menu-button" onClick={this.onClick}>+</div>
+            <div className="menu-button" onClick={this.onClick}><img src={menu} className="menu" /></div>
           }
           {!this.state.collapsed &&
-            <div className="menu-button" onClick={this.onClick}>-</div>
+            <div className="menu-button" onClick={this.onClick}>X</div>
           }
 
           <div 

@@ -138,6 +138,10 @@ $darker-nav-link: rgb(0, 0, 0);
   top: 20px;
   right: 20px;
   text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -149,4 +153,9 @@ $darker-nav-link: rgb(0, 0, 0);
   @extend .nav;
   opacity: 0;
   pointer-events: none;
+}
+
+.menu {
+  width: 35px;
+  height: 35px;
 }

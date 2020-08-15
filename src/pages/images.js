@@ -18,6 +18,7 @@ import yosemite from "../../dist/images/yosemite.jpg";
 import park from "../../dist/images/park.jpg";
 import dolly from "../../dist/images/dolly.jpg";
 import greenLake from "../../dist/images/green-lake.jpg";
+import abstractFlowers from "../../dist/images/abstract-flowers.jpg";
 
 
 export const images = [
@@ -138,6 +139,12 @@ export const images = [
   {
     src: greenLake,
     title: "Green Lake",
+    description: "",
+    medium: "acrylic on canvas 16X20"
+  },
+  {
+    src: abstractFlowers,
+    title: "abstract flowers",
     description: "",
     medium: "acrylic on canvas 16X20"
   },
