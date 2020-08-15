@@ -144,7 +144,7 @@ export const images = [
   },
   {
     src: abstractFlowers,
-    title: "abstract flowers",
+    title: "Abstract Flowers",
     description: "",
     medium: "acrylic on canvas 16X20"
   },
