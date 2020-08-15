@@ -1,5 +1,4 @@
 $nav-color: rgb(138, 11, 163);
-$darker-nav-link: rgb(0, 0, 0);
 
 .header {
   margin-top: 40px;
@@ -26,48 +25,23 @@ $darker-nav-link: rgb(0, 0, 0);
   font-family: 'Avenir-Roman';
 }
 
-@keyframes overNavLink {
-  from {
-    color: $nav-color;
-  }
-  to {
-    color: $darker-nav-link;
-  }
-}
-
-@keyframes offNavLink {
-  from {
-    color: $darker-nav-link;
-  }
-  to {
-    color: $nav-color;
-  }
-}
-
 .nav {
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   font-family: 'Avenir-Roman';
-  a {
-    color: $nav-color;
-  }
 }
 
 .link {
   margin: 5px;
   margin-bottom: 0px;
-  color: $nav-color;
-  animation-name: offNavLink;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
+  transition: width .2s ease-in;
+  width: 30px;
 }
 
 .link:hover{
-  animation-name: overNavLink;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
+  width: 35px;
 }
 
 @media (max-width: 500px) {
@@ -95,18 +69,15 @@ $darker-nav-link: rgb(0, 0, 0);
   }
 
   .nav {
-    display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    font-weight: bold;
-    width: 100vw;
     height: 100vh;
     padding: 0px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
-    display: flex;
     background-color: white;
     transition: opacity .4s ease;
     opacity: 1;
@@ -115,10 +86,6 @@ $darker-nav-link: rgb(0, 0, 0);
   .link {
     font-size: 50px;
     margin: 5px;
-    color: $nav-color;
-  }
-
-  .logo {
     width: 100px !important;
     height: 100px !important;
     margin-bottom: 20px;
@@ -139,11 +106,6 @@ $darker-nav-link: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.logo {
-  width: 30px;
-  height: 30px;
 }
 
 .none {
