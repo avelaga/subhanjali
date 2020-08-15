@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
+import HamburgerMenu from 'react-hamburger-menu';
 import facebook from "../../dist/logos/facebook.png";
 import gmail from "../../dist/logos/gmail.png";
 import linkedin from "../../dist/logos/linkedin.png";
@@ -21,6 +22,12 @@ export class Header extends Component {
     });
   }
 
+  handleClick() {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  }
+
   render() {
     return (
       <div className="header">
@@ -28,15 +35,22 @@ export class Header extends Component {
         {/* mobile  */}
         < MediaQuery maxDeviceWidth={500} >
 
-          {this.state.collapsed &&
-            <div className="menu-button" onClick={this.onClick}><img src={menu} className="menu" /></div>
-          }
-          {!this.state.collapsed &&
-            <div className="menu-button" onClick={this.onClick}>X</div>
-          }
+          <div className="menu-button">
+            <HamburgerMenu
+              isOpen={!this.state.collapsed}
+              menuClicked={this.handleClick.bind(this)}
+              width={25}
+              height={25}
+              strokeWidth={4}
+              rotate={0}
+              color='white'
+              borderRadius={0}
+              animationDuration={0.5}
+            />
+          </div>
 
-          <div 
-          className={this.state.collapsed ? "none" : "nav"} >
+          <div
+            className={this.state.collapsed ? "none" : "nav"} >
             <a href="https://medium.com/@subhanjali" target="_blank"><img src={medium} className="link logo" /></a>
             <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
             <a href="mailto:subha.velaga@gmail.com"><img src={gmail} className="link logo" /></a>
