@@ -43,7 +43,7 @@ export class Header extends Component {
 
           <div
             className={this.state.collapsed ? "none" : "nav"} >
-            <a href="https://medium.com/@subhanjali" target="_blank"><img src={medium} className="link logo" /></a>
+            <a href="https://medium.com/@subhanjali/the-story-of-my-heart-508f25bbfbaa?source=friends_link&sk=65d87ac814ab2fe684b5d13b9f864dcb" target="_blank"><img src={medium} className="link logo" /></a>
             <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
             <a href="mailto:subha.velaga@gmail.com"><img src={gmail} className="link logo" /></a>
             <a href="https://www.linkedin.com/in/subhavelaga/" target="_blank"><img src={linkedin} className="link logo" /></a>
@@ -58,7 +58,7 @@ export class Header extends Component {
         {/* desktop  */}
         < MediaQuery minDeviceWidth={500} >
           <div className="nav">
-            <a href="https://medium.com/@subhanjali" target="_blank"><img src={medium} className="link logo" /></a>
+            <a href="https://medium.com/@subhanjali/the-story-of-my-heart-508f25bbfbaa?source=friends_link&sk=65d87ac814ab2fe684b5d13b9f864dcb" target="_blank"><img src={medium} className="link logo" /></a>
             <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
             <a href="mailto:subha.velaga@gmail.com"><img src={gmail} className="link logo" /></a>
             <a href="https://www.linkedin.com/in/subhavelaga/" target="_blank"><img src={linkedin} className="link logo" /></a>
