@@ -5,7 +5,6 @@ import facebook from "../../dist/logos/facebook.png";
 import gmail from "../../dist/logos/gmail.png";
 import linkedin from "../../dist/logos/linkedin.png";
 import medium from "../../dist/logos/medium.png";
-import menu from "../../dist/logos/menu.png";
 import './navigation.module.scss';
 
 export class Header extends Component {
@@ -14,12 +13,6 @@ export class Header extends Component {
     this.state = {
       collapsed: true,
     };
-  }
-
-  onClick = (event) => {
-    this.setState({
-      collapsed: !this.state.collapsed
-    });
   }
 
   handleClick() {
@@ -34,7 +27,6 @@ export class Header extends Component {
 
         {/* mobile  */}
         < MediaQuery maxDeviceWidth={500} >
-
           <div className="menu-button">
             <HamburgerMenu
               isOpen={!this.state.collapsed}
@@ -56,7 +48,6 @@ export class Header extends Component {
             <a href="mailto:subha.velaga@gmail.com"><img src={gmail} className="link logo" /></a>
             <a href="https://www.linkedin.com/in/subhavelaga/" target="_blank"><img src={linkedin} className="link logo" /></a>
           </div>
-
         </ MediaQuery>
 
         <div className="title-div">
