@@ -38,7 +38,7 @@ export class Home extends Component {
     return (
       <div className="page">
         <Header />
-        <MediaQuery minDeviceWidth={500}>{this.mapImages(3)}</MediaQuery>
+        <MediaQuery minDeviceWidth={500}>{this.mapImages(2)}</MediaQuery>
         <MediaQuery maxDeviceWidth={500}>{this.mapImages(1)}</MediaQuery>
         <a href="https://abhi.work" target="_blank"><div className="credit">Developed by Abhi Velaga</div></a>
 
