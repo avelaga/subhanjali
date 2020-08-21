@@ -31,7 +31,7 @@ export const images = [
   {
     src: cyclist,
     title: "The Morning Cyclist",
-    description: "Shades of dawn and the elongated morning shadow created a dramatic effect in teh picture that inspired me to do this painting",
+    description: "Shades of dawn and the elongated morning shadow created a dramatic effect in the picture that inspired me to do this painting",
     medium: "oil on canvas 16X20"
   },
   {
