@@ -25,7 +25,7 @@ export const images = [
   {
     src: doggo,
     title: "Dreamy Doggo",
-    description: "Sam the doggo dreaming away",
+    description: "Sam the doggo dreaming away. My first attempt at painting a pet. Sam was the first fur baby in the family, he went over to the other side of the rainbow the week after I finished this painting. Feels like he is living on through the painting. ",
     medium: "oil on canvas 18X24"
   },
   {
@@ -55,31 +55,31 @@ export const images = [
   {
     src: logCabin,
     title: "Log Cabin",
-    description: "",
+    description: "Based on the beautiful log cabins I saw in the woods at the Smokies National Park",
     medium: "oil on canvas 16X20"
   },
   {
     src: youngMAn,
     title: "Young Man",
-    description: "",
+    description: "reimagined from a small black and white photo, the only good picture my husband has from his childhood",
     medium: "oil on canvas 18X24"
   },
   {
     src: marigoldField,
     title: "Marigold Field",
-    description: "",
+    description: "Marigolds field with bluebonnets .. inspired by a pic I took at Butchart Gardens in 2015",
     medium: "acrylic on canvas 16X20"
   },
   {
     src: mil,
     title: "Portrait Of A Mother",
-    description: "",
+    description: "portrait of my mother-in-law, a wonderful lady,  unfortunately she passed away a few years ago, way too soon ..",
     medium: "oil on canvas 18X24"
   },
   {
     src: indianBridgeGroom,
     title: "60's Indian Bride & Groom",
-    description: "",
+    description: "My parents do not have any pics from their wedding, my mom always wished she had at least one .. now she does :-) used a pic I have of my parents from when they were younger, and imagined this wedding pic ..",
     medium: "oil on canvas 24X30"
   },
   {
@@ -103,7 +103,7 @@ export const images = [
   {
     src: bigBrother,
     title: "Big Brother",
-    description: "",
+    description: "This is my second oil painting and my first attempt at a portrait .. from a pic of my kids when they were younger, five years old big brother with his six months old little sister",
     medium: "oil on canvas 24X30"
   },
   // {
@@ -115,7 +115,7 @@ export const images = [
   {
     src: waterLily,
     title: "Lotus Bloom",
-    description: "",
+    description: "This is the painting that got it all strated, the first serious painting I did. It is inspired by a pic I took at the Butchart Gardens, Canada. I thoroughly enjoyed working on it .. finished it in one sitting of four hours",
     medium: "acrylic on canvas 16X20"
   },
   {
@@ -126,14 +126,14 @@ export const images = [
   },
   {
     src: park,
-    title: "Girls In The Park",
-    description: "done in shades of blue, green, brown and white",
+    title: "Girls playing at the fountain",
+    description: "kids can meet for the first time ..  smile at each other, and start playing just like that .. done in shades of blue, green, brown and white. ",
     medium: "oil on canvas 16X16"
   },
   {
     src: dolly,
     title: "Dolly",
-    description: "",
+    description: "A friends cute little fur baby",
     medium: "oil on canvas 16X16"
   },
   {

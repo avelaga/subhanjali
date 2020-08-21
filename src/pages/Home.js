@@ -26,8 +26,8 @@ export class Home extends Component {
             height={getHeight(value.src)} width={getWidth(value.src)}
           />
           <div className="img-title">{value.title}</div>
-          <div className="img-info">{value.description}</div>
           <div className="img-info">{value.medium}</div>
+          <div className="img-info">{value.description}</div>
         </div>
       })}
     </Columned>
