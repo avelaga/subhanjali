@@ -37,25 +37,25 @@ export const images = [
   {
     src: dancer,
     title: "Kuchipudi Dancer",
-    description: "loved the colors and the detail in the picture of my daughter all set in her dance costume for a Kuchipudi dance performance, made a bold attempt to paint it, this is the second portrait that I ever did ",
+    description: "Loved the colors and the detail in the picture of my daughter all set in her dance costume for a Kuchipudi dance performance, made a bold attempt to paint it, this is the second portrait that I ever did.",
     medium: "oil on canvas 24X30"
   },
   {
     src: guitarist,
     title: "The Guitarist",
-    description: "His fender electric guitar is my son's favourite musical instrument. This is based on a casual picture taken at his new home, he was settling in for sophomore year.",
+    description: "His fender electric guitar is my son's favourite musical instrument. This is based on a casual picture taken at his new home, when he was settling in for sophomore year at UT.",
     medium: "oil on canvas 18X24"
   },
   {
     src: beach,
     title: "Cousins At The Beach",
-    description: "Based on a pic I took of my kids and nieces playing at a beach on a summer trip.",
+    description: "Based by a pic I took of my kids and nieces playing at a beach on a summer trip.",
     medium: "oil on canvas 16X20"
   },
   {
     src: logCabin,
     title: "Log Cabin",
-    description: "Based on the beautiful log cabins I saw in the woods at the Smokies National Park.",
+    description: "Inspired by the beautiful log cabins I saw in the woods at the Smokies National Park.",
     medium: "oil on canvas 16X20"
   },
   {
@@ -115,7 +115,7 @@ export const images = [
   {
     src: waterLily,
     title: "Lotus Bloom",
-    description: "This is the painting that got it all strated, the first serious painting I did. It is inspired by a pic I took at the Butchart Gardens, Canada. I thoroughly enjoyed working on it .. finished it in one sitting of four hours",
+    description: "This is the painting that got it all started, the first serious painting I did. It is inspired by a pic I took at the Butchart Gardens, Canada. I thoroughly enjoyed working on it .. finished it in one sitting of four hours.",
     medium: "acrylic on canvas 16X20"
   },
   {
@@ -127,7 +127,7 @@ export const images = [
   {
     src: park,
     title: "Girls playing at the fountain",
-    description: "kids can meet for the first time ..  smile at each other, and start playing just like that .. done in shades of blue, green, brown and white. ",
+    description: "Kids can meet for the first time ..  smile at each other, and start playing just like that .. done in shades of blue, green, brown and white. ",
     medium: "oil on canvas 16X16"
   },
   {
