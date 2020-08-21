@@ -31,37 +31,37 @@ export const images = [
   {
     src: cyclist,
     title: "The Morning Cyclist",
-    description: "",
+    description: "Shades of dawn and the elongated morning shadow created a dramatic effect in teh picture that inspired me to do this painting",
     medium: "oil on canvas 16X20"
   },
   {
     src: dancer,
     title: "Kuchipudi Dancer",
-    description: "",
+    description: "loved the colors and the detail in the picture of my daughter all set in her dance costume for a Kuchipudi dance performance, made a bold attempt to paint it, this is the second portrait that I ever did ",
     medium: "oil on canvas 24X30"
   },
   {
     src: guitarist,
     title: "The Guitarist",
-    description: "",
+    description: "His fender electric guitar is my son's favourite musical instrument. This is based on a casual picture taken at his new home, he was settling in for sophomore year.",
     medium: "oil on canvas 18X24"
   },
   {
     src: beach,
     title: "Cousins At The Beach",
-    description: "",
+    description: "Based on a pic I took of my kids and nieces playing at a beach on a summer trip.",
     medium: "oil on canvas 16X20"
   },
   {
     src: logCabin,
     title: "Log Cabin",
-    description: "Based on the beautiful log cabins I saw in the woods at the Smokies National Park",
+    description: "Based on the beautiful log cabins I saw in the woods at the Smokies National Park.",
     medium: "oil on canvas 16X20"
   },
   {
     src: youngMAn,
     title: "Young Man",
-    description: "reimagined from a small black and white photo, the only good picture my husband has from his childhood",
+    description: "Reimagined from a small black and white photo, the only good picture my husband has from his childhood.",
     medium: "oil on canvas 18X24"
   },
   {
@@ -85,19 +85,19 @@ export const images = [
   {
     src: chess,
     title: "Chess",
-    description: "",
+    description: "Loved the colors and the play of the light in this picture and took it up as a challenge to try and paint it. First attempt to paint an indoor scene with so much detail.",
     medium: "oil on canvas 16X20"
   },
   {
     src: dusk,
     title: "Dusk",
-    description: "",
+    description: "Experimenting with oil colors and mixing and shading",
     medium: "oil on canvas 24X30"
   },
   {
     src: lordKrishna,
     title: "Krishna With Flute",
-    description: "",
+    description: "First attempt to draw and paint facial features and the fingers",
     medium: "acrylic on canvas 24X30"
   },
   {
@@ -121,7 +121,7 @@ export const images = [
   {
     src: yosemite,
     title: "Kids At Yosemite",
-    description: "",
+    description: "Based on a picture I took at Yosemite National Park several summers ago. My kids and my niece were playing in the cold water of a creek, on a hot summer day, oblivious of the giant mountain behind them .. it was serene to just sit in the shade and take the scenery in ..",
     medium: "oil on canvas 16X20"
   },
   {
