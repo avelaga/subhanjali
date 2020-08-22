@@ -43,7 +43,7 @@ export const images = [
   {
     src: guitarist,
     title: "The Guitarist",
-    description: "His fender electric guitar is my son's favourite musical instrument. This is based on a casual picture taken at his new home, when he was settling in for sophomore year at UT.",
+    description: "His fender electric guitar is my son's favourite musical instrument. This is based on a casual picture taken at his new home, when he was settling in for junior year at UT.",
     medium: "oil on canvas 18X24"
   },
   {
