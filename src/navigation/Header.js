@@ -55,12 +55,7 @@ export class Header extends Component {
         <div className="title-div">
           <div className="title">Subhanjali</div>
           <div className="description">artist in oil and acrylic mediums</div>
-          <br></br>
-          <div className="description">Amid the COVID situation in April 2020 I was talking to my teenage daughter about wanting to do something creative 
-          and mentioned the idea of doing a painting, her first comment was, "what is stopping you?". 
-          She encouraged me to get started and shared her acrylic paints and brushes. 
-          That afternoon I got started on painting and there has been no looking back since.</div> 
-        </div>
+         </div>
 
         {/* desktop  */}
         < MediaQuery minDeviceWidth={500} >
