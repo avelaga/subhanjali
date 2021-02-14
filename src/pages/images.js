@@ -19,6 +19,7 @@ import park from "../../dist/images/park.jpg";
 import dolly from "../../dist/images/dolly.jpg";
 import greenLake from "../../dist/images/green-lake.jpg";
 import abstractFlowers from "../../dist/images/abstract-flowers.jpg";
+import friends from "../../dist/images/friends.jpg";
 
 
 export const images = [
@@ -147,6 +148,12 @@ export const images = [
     title: "Abstract Flowers",
     description: "",
     medium: "acrylic on canvas 16X20"
+  },
+  {
+    src: friends,
+    title: "friends",
+    description: "painting based on a picture I took of my daughter and her friends at a lake before they head out to Homecoming at their high school",
+    medium: "oil on canvas 18X24"
   },
 ];
 
