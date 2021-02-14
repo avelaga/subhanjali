@@ -41,7 +41,7 @@ export class Home extends Component {
         <MediaQuery minDeviceWidth={500}>{this.mapImages(2)}</MediaQuery>
         <MediaQuery maxDeviceWidth={500}>{this.mapImages(1)}</MediaQuery>
         <a href="https://abhi.work" target="_blank"><div className="credit">Developed by Abhi Velaga</div></a>
-        <div className="credit">Copyright © 2020 Subhanjali Velaga</div>
+        <div className="credit">© 2021 Subhanjali Velaga</div>
 
         {/* lightbox that conditionally appears when the variable, isOpen, is true */}
         {isOpen && (
