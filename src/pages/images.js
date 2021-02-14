@@ -20,6 +20,7 @@ import dolly from "../../dist/images/dolly.jpg";
 import greenLake from "../../dist/images/green-lake.jpg";
 import abstractFlowers from "../../dist/images/abstract-flowers.jpg";
 import friends from "../../dist/images/friends.jpg";
+import fallcolorsinsnow from "../../dist/images/fallcolorsinsnow.jpg";
 
 
 export const images = [
@@ -154,6 +155,12 @@ export const images = [
     title: "friends",
     description: "painting based on a picture I took of my daughter and her friends at a lake before they head out to Homecoming at their high school",
     medium: "oil on canvas 18X24"
+  },
+  {
+    src: fallcolorsinsnow,
+    title: "Fall Colors in Snow",
+    description: "painting inspired by a photograph by 'Craig Goodrich'",
+    medium: "acrylics on canvas 30x24"
   },
 ];
 
