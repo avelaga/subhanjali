@@ -21,8 +21,8 @@ import greenLake from "../../dist/images/green-lake.jpg";
 import abstractFlowers from "../../dist/images/abstract-flowers.jpg";
 import friends from "../../dist/images/friends.jpg";
 import fallcolorsinsnow from "../../dist/images/fallcolorsinsnow.jpg";
-import baby-Dhruv from "../../dist/images/baby-Dhruv.jpg";
-import scooterist-Roshan from "../../dist/images/scooterist-Roshan.jpg";
+import babyDhruv from "../../dist/images/baby-Dhruv.jpg";
+import scooteristRoshan from "../../dist/images/scooterist-Roshan.jpg";
 
 
 export const images = [
@@ -81,13 +81,13 @@ export const images = [
     medium: "oil on canvas 18X24"
   },
   {
-    src: baby-Dhruv,
+    src: babyDhruv,
     title: "baby Dhruv",
     description: "my grandnephew, Dhruv at 5 months old",
     medium: "oil on canvas 24X30"
   },
   {
-    src: scooterist-Roshan,
+    src: scooteristRoshan,
     title: "scooterist in CoVid times",
     description: "based ona  pic taken by Manish Gour of Roshan Pinto near BHEL main gate early one morning in CoVid times",
     medium: "oil on canvas 24X30"
