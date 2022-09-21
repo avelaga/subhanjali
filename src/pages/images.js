@@ -29,13 +29,13 @@ export const images = [
   {
     src: doggo,
     title: "Dreamy Doggo",
-    description: "Sam the doggo dreaming away. My first attempt at painting a pet. Sam was the first fur baby in the family, he went over to the other side of the rainbow the week after I finished this painting. Feels like he is living on through the painting. ",
+    description: "Sam the doggo dreaming away. My first attempt at painting a pet. Sam was the first fur baby in the family, he went over to the other side of the rainbow the week after I finished this painting. Feels like he is living on through the painting.",
     medium: "oil on canvas 18X24"
   },
   {
     src: cyclist,
     title: "The Morning Cyclist",
-    description: "Shades of dawn and the elongated morning shadow created a dramatic effect in the picture that inspired me to do this painting",
+    description: "Shades of dawn and the elongated morning shadow created a dramatic effect in the picture that inspired me to do this painting.",
     medium: "oil on canvas 16X20"
   },
   {
@@ -53,7 +53,7 @@ export const images = [
   {
     src: beach,
     title: "Cousins At The Beach",
-    description: "Based by a pic I took of my kids and nieces playing at a beach on a summer trip.",
+    description: "Based on a picture I took of my kids and nieces playing at a beach on a summer trip.",
     medium: "oil on canvas 16X20"
   },
   {
@@ -71,25 +71,25 @@ export const images = [
   {
     src: marigoldField,
     title: "Marigold Field",
-    description: "Marigolds field with bluebonnets .. inspired by a pic I took at Butchart Gardens in 2015",
+    description: "Marigolds field with bluebonnets .. inspired by a picture I took at Butchart Gardens in 2015.",
     medium: "acrylic on canvas 16X20"
   },
   {
     src: mil,
     title: "Portrait Of A Mother",
-    description: "portrait of my mother-in-law, a wonderful lady,  unfortunately she passed away a few years ago, way too soon ..",
+    description: "Portrait of my mother-in-law, a wonderful lady, unfortunately she passed away a few years ago, way too soon ..",
     medium: "oil on canvas 18X24"
   },
   {
     src: babyDhruv,
-    title: "baby Dhruv",
-    description: "my grandnephew, Dhruv at 5 months old",
+    title: "Baby Dhruv",
+    description: "My grandnephew, Dhruv at 5 months old.",
     medium: "oil on canvas 24X30"
   },
   {
     src: scooteristRoshan,
-    title: "scooterist in CoVid times",
-    description: "based ona  pic taken by Manish Gour of Roshan Pinto near BHEL main gate early one morning in CoVid times",
+    title: "Scooterist In Covid Times",
+    description: "Based on a pic taken by Manish Gour of Roshan Pinto near BHEL main gate early one morning in Covid times.",
     medium: "oil on canvas 24X30"
   },
   {
@@ -107,19 +107,19 @@ export const images = [
   {
     src: dusk,
     title: "Dusk",
-    description: "Experimenting with oil colors and mixing and shading",
+    description: "Experimenting with oil colors and mixing and shading.",
     medium: "oil on canvas 24X30"
   },
   {
     src: lordKrishna,
     title: "Krishna With Flute",
-    description: "First attempt to draw and paint facial features and the fingers",
+    description: "First attempt to draw and paint facial features and the fingers.",
     medium: "acrylic on canvas 24X30"
   },
   {
     src: bigBrother,
     title: "Big Brother",
-    description: "This is my second oil painting and my first attempt at a portrait .. from a pic of my kids when they were younger, five years old big brother with his six months old little sister",
+    description: "This is my second oil painting and my first attempt at a portrait .. from a pic of my kids when they were younger, five years old big brother with his six months old little sister.",
     medium: "oil on canvas 24X30"
   },
   // {
@@ -143,13 +143,13 @@ export const images = [
   {
     src: park,
     title: "Girls playing at the fountain",
-    description: "Kids can meet for the first time ..  smile at each other, and start playing just like that .. done in shades of blue, green, brown and white. ",
+    description: "Kids can meet for the first time ..  smile at each other, and start playing just like that .. done in shades of blue, green, brown and white.",
     medium: "oil on canvas 16X16"
   },
   {
     src: dolly,
     title: "Dolly",
-    description: "A friends cute little fur baby",
+    description: "A friend's cute little fur baby.",
     medium: "oil on canvas 16X16"
   },
   {
@@ -167,13 +167,13 @@ export const images = [
   {
     src: friends,
     title: "friends",
-    description: "painting based on a picture I took of my daughter and her friends at a lake before they head out to Homecoming at their high school",
+    description: "Painting based on a picture I took of my daughter and her friends at a lake before they head out to Homecoming at their high school.",
     medium: "oil on canvas 18X24"
   },
   {
     src: fallcolorsinsnow,
     title: "Fall Colors in Snow",
-    description: "painting inspired by a photograph by 'Craig Goodrich'",
+    description: "Painting inspired by a photograph by 'Craig Goodrich'.",
     medium: "acrylics on canvas 30x24"
   },
 ];
