@@ -20,6 +20,9 @@ import dolly from "../../dist/images/dolly.jpg";
 import greenLake from "../../dist/images/green-lake.jpg";
 import abstractFlowers from "../../dist/images/abstract-flowers.jpg";
 import friends from "../../dist/images/friends.jpg";
+import fallcolorsinsnow from "../../dist/images/fallcolorsinsnow.jpg";
+import babyDhruv from "../../dist/images/baby-Dhruv.jpg";
+import scooteristRoshan from "../../dist/images/scooterist-Roshan.jpg";
 
 
 export const images = [
@@ -76,6 +79,18 @@ export const images = [
     title: "Portrait Of A Mother",
     description: "portrait of my mother-in-law, a wonderful lady,  unfortunately she passed away a few years ago, way too soon ..",
     medium: "oil on canvas 18X24"
+  },
+  {
+    src: babyDhruv,
+    title: "baby Dhruv",
+    description: "my grandnephew, Dhruv at 5 months old",
+    medium: "oil on canvas 24X30"
+  },
+  {
+    src: scooteristRoshan,
+    title: "scooterist in CoVid times",
+    description: "based ona  pic taken by Manish Gour of Roshan Pinto near BHEL main gate early one morning in CoVid times",
+    medium: "oil on canvas 24X30"
   },
   {
     src: indianBridgeGroom,
@@ -154,6 +169,12 @@ export const images = [
     title: "friends",
     description: "painting based on a picture I took of my daughter and her friends at a lake before they head out to Homecoming at their high school",
     medium: "oil on canvas 18X24"
+  },
+  {
+    src: fallcolorsinsnow,
+    title: "Fall Colors in Snow",
+    description: "painting inspired by a photograph by 'Craig Goodrich'",
+    medium: "acrylics on canvas 30x24"
   },
 ];
 

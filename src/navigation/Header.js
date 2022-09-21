@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MediaQuery from 'react-responsive';
 import HamburgerMenu from 'react-hamburger-menu';
 import facebook from "../../dist/logos/facebook.png";
+import instagram from "../../dist/logos/instagram.png";
 import gmail from "../../dist/logos/gmail.png";
 import linkedin from "../../dist/logos/linkedin.png";
 import medium from "../../dist/logos/medium.png";
@@ -46,6 +47,7 @@ export class Header extends Component {
             className={this.state.collapsed ? "none" : "nav"} >
             <a href="https://medium.com/@subhanjali" target="_blank"><img src={medium} className="link logo" /></a>
             <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
+            <a href="https://www.instagram.com/artbysubhanjali/" target="_blank"><img src={instagram} className="link logo" /></a>
             <a href="https://www.youtube.com/channel/UCT-a1ua-2qPMZG8wJtP5Btg" target="_blank"><img src={youtube} className="link logo" /></a>
             <a href="https://www.linkedin.com/in/subhavelaga/" target="_blank"><img src={linkedin} className="link logo" /></a>
             <a href="mailto:subha.velaga@gmail.com"><img src={gmail} className="link logo" /></a>
@@ -62,7 +64,7 @@ export class Header extends Component {
           <div className="nav">
           <a href="https://medium.com/@subhanjali" target="_blank"><img src={medium} className="link logo" /></a>
             <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
-            <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
+            <a href="https://www.instagram.com/artbysubhanjali/" target="_blank"><img src={instagram} className="link logo" /></a>
             <a href="https://www.youtube.com/channel/UCT-a1ua-2qPMZG8wJtP5Btg" target="_blank"><img src={youtube} className="link logo" /></a>
             <a href="https://www.linkedin.com/in/subhavelaga/" target="_blank"><img src={linkedin} className="link logo" /></a>
             <a href="mailto:subha.velaga@gmail.com"><img src={gmail} className="link logo" /></a>
