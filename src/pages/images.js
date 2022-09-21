@@ -142,7 +142,7 @@ export const images = [
   },
   {
     src: park,
-    title: "Girls playing at the fountain",
+    title: "Girls Playing At The Fountain",
     description: "Kids can meet for the first time ..  smile at each other, and start playing just like that .. done in shades of blue, green, brown and white.",
     medium: "oil on canvas 16X16"
   },
@@ -166,7 +166,7 @@ export const images = [
   },
   {
     src: friends,
-    title: "friends",
+    title: "Friends",
     description: "Painting based on a picture I took of my daughter and her friends at a lake before they head out to Homecoming at their high school.",
     medium: "oil on canvas 18X24"
   },
