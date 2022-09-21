@@ -4,6 +4,7 @@ $link-color: rgb(180, 180, 180);
   from {
     color: $link-color;
   }
+
   to {
     color: black;
   }
@@ -13,12 +14,13 @@ $link-color: rgb(180, 180, 180);
   from {
     color: black;
   }
+
   to {
     color: $link-color;
   }
 }
 
-.page{
+.page {
   animation-name: appear;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -26,17 +28,18 @@ $link-color: rgb(180, 180, 180);
   padding-left: 15%;
 }
 
-.img{
-  width: calc( 100% - 40px );
+.img {
+  max-width: calc(100% - 40px);
+  max-height: 100vh;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.img:hover{
+.img:hover {
   cursor: pointer;
 }
 
-.gallery{
+.gallery {
   margin-top: 40px;
   width: 100%;
   display: flex;
@@ -44,26 +47,32 @@ $link-color: rgb(180, 180, 180);
   align-items: center;
 }
 
-.img-info{
+.img-info {
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
   font-family: 'Avenir-Book';
   line-height: 15px;
   font-size: 12px;
+  width: 100%;
 }
 
-.img-title{
+.img-title {
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
   font-family: 'Avenir-Black';
   font-size: 20px;
   margin-top: 20px;
+  width: 100%;
 }
 
-.img-div{
+.img-div {
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .credit {
@@ -77,32 +86,35 @@ $link-color: rgb(180, 180, 180);
   margin-bottom: 10px;
 }
 
-.credit:hover{
+.credit:hover {
   animation-name: overLink;
   animation-duration: 0.7s;
   animation-fill-mode: forwards;
 }
 
 @media (max-width: 500px) {
-  .page{
+  .page {
     padding-right: 0;
     padding-left: 0;
   }
-  .img{
+
+  .img {
     width: 80%;
     padding-left: 0;
     padding-right: 0;
     margin-left: 10%;
     margin-right: 10%;
   }
-  .img-title{
+
+  .img-title {
     font-family: 'Avenir-Book';
   }
 }
 
 /* all of these are in use to modify lightbox library */
 
-.ril__caption, .ril__toolbar {
+.ril__caption,
+.ril__toolbar {
   background-color: rgb(0, 0, 0, 0) !important;
 }
 
