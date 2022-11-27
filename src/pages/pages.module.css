@@ -1,8 +1,6 @@
-$link-color: rgb(180, 180, 180);
-
 @keyframes overLink {
   from {
-    color: $link-color;
+    color: rgb(180, 180, 180);
   }
 
   to {
@@ -16,7 +14,7 @@ $link-color: rgb(180, 180, 180);
   }
 
   to {
-    color: $link-color;
+    color: rgb(180, 180, 180);
   }
 }
 
@@ -77,7 +75,7 @@ $link-color: rgb(180, 180, 180);
 
 .credit {
   font-family: 'Avenir-Book';
-  color: $link-color;
+  color: rgb(180, 180, 180);
   animation-name: offLink;
   animation-duration: 0.7s;
   animation-fill-mode: forwards;
@@ -134,7 +132,7 @@ $link-color: rgb(180, 180, 180);
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-//  override lazyload animation to be longer
+/* override lazyload animation to be longer */
 .lazy-load-image-background.opacity.lazy-load-image-loaded {
   transition: opacity 1s !important;
 }

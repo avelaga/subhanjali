@@ -7,7 +7,7 @@ import 'react-image-lightbox/style.css';
 import MediaQuery from 'react-responsive'
 import Header from "../navigation/Header.js";
 import 'react-lazy-load-image-component/src/effects/opacity.css';
-import './pages.module.scss';
+import './pages.module.css';
 
 export class Home extends Component {
   constructor(props) {

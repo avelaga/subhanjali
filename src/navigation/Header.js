@@ -7,7 +7,7 @@ import gmail from "../../dist/logos/gmail.png";
 import linkedin from "../../dist/logos/linkedin.png";
 import medium from "../../dist/logos/medium.png";
 import youtube from "../../dist/logos/youtube.png";
-import './navigation.module.scss';
+import './navigation.module.css';
 
 export class Header extends Component {
   constructor(props) {
@@ -44,7 +44,7 @@ export class Header extends Component {
           </div>
 
           <div
-            className={this.state.collapsed ? "none" : "nav"} >
+            className={this.state.collapsed ? "none nav" : "nav"} >
             <a href="https://medium.com/@subhanjali" target="_blank"><img src={medium} className="link logo" /></a>
             <a href="https://www.facebook.com/subhanjali" target="_blank"><img src={facebook} className="link logo" /></a>
             <a href="https://www.instagram.com/artbysubhanjali/" target="_blank"><img src={instagram} className="link logo" /></a>
