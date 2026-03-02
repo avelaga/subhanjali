@@ -7,7 +7,7 @@
 }
 
 .credit {
-  font-family: var(--font-avenir-book), sans-serif;
+  font-family: 'Avenir-Book';
   color: rgb(180, 180, 180);
   animation-name: offLink;
   animation-duration: 0.7s;

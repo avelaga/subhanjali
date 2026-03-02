@@ -26,7 +26,6 @@
 
 .img {
   max-width: calc(100% - 40px);
-  max-height: 80vh;
   margin-left: 20px;
   margin-right: 20px;
   width: 100%;
@@ -41,7 +40,7 @@
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: var(--font-avenir-book), sans-serif;
+  font-family: 'Avenir-Book';
   line-height: 17px;
   font-size: 15px;
   width: 50%;
@@ -51,7 +50,7 @@
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: var(--font-avenir-black), sans-serif;
+  font-family: 'Avenir-Black';
   font-size: 20px;
   margin-top: 20px;
   width: 100%;
@@ -75,7 +74,7 @@
   }
 
   .img-title {
-    font-family: var(--font-avenir-book), sans-serif;
+    font-family: 'Avenir-Book';
   }
 
   .img-info {

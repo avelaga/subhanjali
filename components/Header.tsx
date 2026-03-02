@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import HamburgerMenu from 'react-hamburger-menu';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -11,22 +10,24 @@ export default function Header() {
   return (
     <div className={styles.header}>
       {/* Hamburger button — visible only on mobile via CSS */}
-      <div
+      <button
         className={styles['menu-button']}
         onClick={() => setCollapsed(!collapsed)}
+        aria-label={collapsed ? 'Open menu' : 'Close menu'}
       >
-        <HamburgerMenu
-          isOpen={!collapsed}
-          menuClicked={() => setCollapsed(!collapsed)}
-          width={25}
-          height={25}
-          strokeWidth={4}
-          rotate={0}
-          color="white"
-          borderRadius={0}
-          animationDuration={0.5}
-        />
-      </div>
+        {collapsed ? (
+          <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
+            <rect y="3" width="25" height="4" fill="white" />
+            <rect y="11" width="25" height="4" fill="white" />
+            <rect y="19" width="25" height="4" fill="white" />
+          </svg>
+        ) : (
+          <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
+            <line x1="2" y1="2" x2="23" y2="23" stroke="white" strokeWidth="4" strokeLinecap="round" />
+            <line x1="23" y1="2" x2="2" y2="23" stroke="white" strokeWidth="4" strokeLinecap="round" />
+          </svg>
+        )}
+      </button>
 
       {/* Mobile nav overlay */}
       <div

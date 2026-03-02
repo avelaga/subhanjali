@@ -1,10 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Lightbox from 'yet-another-react-lightbox';
+import FadeInOnLoad from './FadeInOnLoad';
 import 'yet-another-react-lightbox/styles.css';
-import Columned from 'react-columned';
 import { images, type Painting } from '../lib/images';
 import styles from './Gallery.module.css';
 
@@ -12,20 +11,20 @@ export default function Gallery() {
   const [photoIndex, setPhotoIndex] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
 
-  const slides = images.map((img) => ({ src: img.src }));
+  const slides = images.map((img) => ({ src: img.src, width: img.width, height: img.height }));
 
   return (
     <>
-      <Columned columns={1} className={styles.gallery}>
+      <div className={styles.gallery}>
         {images.map((painting: Painting, index: number) => (
           <div className={styles['img-div']} key={index}>
-            <Image
+            <FadeInOnLoad
               src={painting.src}
               alt={painting.title}
-              className={styles.img}
-              width={800}
-              height={600}
-              style={{ width: '100%', height: 'auto', cursor: 'pointer' }}
+              cls={styles.img}
+              width={painting.width}
+              height={painting.height}
+              style={{ cursor: 'pointer' }}
               onClick={() => {
                 setPhotoIndex(index);
                 setIsOpen(true);
@@ -36,7 +35,7 @@ export default function Gallery() {
             <div className={styles['img-info']}>{painting.description}</div>
           </div>
         ))}
-      </Columned>
+      </div>
 
       <Lightbox
         open={isOpen}

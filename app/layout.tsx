@@ -1,24 +1,5 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
 import './globals.css';
-
-const avenirRoman = localFont({
-  src: '../public/fonts/AvenirLTStd-Roman.otf',
-  variable: '--font-avenir-roman',
-  display: 'swap',
-});
-
-const avenirBook = localFont({
-  src: '../public/fonts/AvenirLTStd-Book.otf',
-  variable: '--font-avenir-book',
-  display: 'swap',
-});
-
-const avenirBlack = localFont({
-  src: '../public/fonts/AvenirLTStd-Black.otf',
-  variable: '--font-avenir-black',
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://subhanjali.com'),
@@ -56,10 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="en"
-      className={`${avenirRoman.variable} ${avenirBook.variable} ${avenirBlack.variable}`}
-    >
+    <html lang="en">
       <head>
         <script
           async

@@ -10,7 +10,7 @@
 }
 
 .page_credit__foNds {
-  font-family: var(--font-avenir-book), sans-serif;
+  font-family: 'Avenir-Book';
   color: rgb(180, 180, 180);
   animation-name: page_offLink__fwPmT;
   animation-duration: 0.7s;
@@ -86,7 +86,6 @@
 
 .Gallery_img__AdW9p {
   max-width: calc(100% - 40px);
-  max-height: 80vh;
   margin-left: 20px;
   margin-right: 20px;
   width: 100%;
@@ -101,7 +100,7 @@
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: var(--font-avenir-book), sans-serif;
+  font-family: 'Avenir-Book';
   line-height: 17px;
   font-size: 15px;
   width: 50%;
@@ -111,7 +110,7 @@
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: var(--font-avenir-black), sans-serif;
+  font-family: 'Avenir-Black';
   font-size: 20px;
   margin-top: 20px;
   width: 100%;
@@ -135,7 +134,7 @@
   }
 
   .Gallery_img-title__uOjwT {
-    font-family: var(--font-avenir-book), sans-serif;
+    font-family: 'Avenir-Book';
   }
 
   .Gallery_img-info__uwF9L {
@@ -168,7 +167,7 @@
 
 .Header_description__MnpjT {
   font-size: 15px;
-  font-family: var(--font-avenir-roman), sans-serif;
+  font-family: 'Avenir-Roman';
 }
 
 .Header_nav__tNWGY {
@@ -176,7 +175,7 @@
   width: 100%;
   justify-content: flex-end;
   align-items: flex-end;
-  font-family: var(--font-avenir-roman), sans-serif;
+  font-family: 'Avenir-Roman';
 }
 
 .Header_link__8qxmS {
@@ -205,6 +204,8 @@
 .Header_menu-button__Bihqa {
   display: none;
   z-index: 2;
+  border: none;
+  padding: 0;
   border-radius: 100px;
   width: 50px;
   height: 50px;
