@@ -1,0 +1,135 @@
+.header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: calc(100% - 40px);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title-div {
+  text-align: left;
+}
+
+.title {
+  font-size: 40px;
+  width: 300px;
+  font-family: cursive;
+}
+
+.description {
+  font-size: 15px;
+  font-family: var(--font-avenir-roman), sans-serif;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: var(--font-avenir-roman), sans-serif;
+}
+
+.link {
+  margin: 5px;
+  margin-bottom: 0px;
+  transition: width 0.2s ease-in;
+  width: 30px;
+  height: auto;
+}
+
+.link:hover {
+  width: 35px;
+}
+
+/* Desktop nav: visible on large screens, hidden on mobile */
+.desktop-nav {
+  display: flex;
+}
+
+/* Mobile nav overlay: hidden on large screens */
+.mobile-nav {
+  display: none;
+}
+
+/* Hamburger button: hidden on large screens */
+.menu-button {
+  display: none;
+  z-index: 2;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(209, 15, 15);
+  color: white;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.none {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 500px) {
+  .title {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .description {
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .title-div {
+    width: 100%;
+  }
+
+  .header {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    transition: opacity 0.4s ease;
+    opacity: 1;
+  }
+
+  .menu-button {
+    display: flex;
+  }
+
+  .link {
+    font-size: 50px;
+    margin: 5px;
+    width: 90px !important;
+    height: 90px !important;
+    margin-bottom: 15px;
+  }
+}

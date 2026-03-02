@@ -1,0 +1,49 @@
+.page {
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.credit {
+  font-family: var(--font-avenir-book), sans-serif;
+  color: rgb(180, 180, 180);
+  animation-name: offLink;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.credit:hover {
+  animation-name: overLink;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes overLink {
+  from {
+    color: rgb(180, 180, 180);
+  }
+  to {
+    color: black;
+  }
+}
+
+@keyframes offLink {
+  from {
+    color: black;
+  }
+  to {
+    color: rgb(180, 180, 180);
+  }
+}
+
+@media (max-width: 500px) {
+  .page {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

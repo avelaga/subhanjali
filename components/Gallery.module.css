@@ -1,0 +1,84 @@
+@keyframes overLink {
+  from {
+    color: rgb(180, 180, 180);
+  }
+  to {
+    color: black;
+  }
+}
+
+@keyframes offLink {
+  from {
+    color: black;
+  }
+  to {
+    color: rgb(180, 180, 180);
+  }
+}
+
+.gallery {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  max-width: calc(100% - 40px);
+  max-height: 80vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.img:hover {
+  cursor: pointer;
+}
+
+.img-info {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: var(--font-avenir-book), sans-serif;
+  line-height: 17px;
+  font-size: 15px;
+  width: 50%;
+}
+
+.img-title {
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: var(--font-avenir-black), sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.img-div {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .img {
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .img-title {
+    font-family: var(--font-avenir-book), sans-serif;
+  }
+
+  .img-info {
+    width: 100%;
+  }
+}
